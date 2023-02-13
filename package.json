@@ -1,12 +1,17 @@
 {
-  "name": "webpack",
+  "name": "webpack-kit",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://Tinkkid.github.io/webpack-kit",
   "scripts": {
     "start": "webpack serve",
     "dev": "webpack",
     "prod": "webpack --node-env=production",
     "clear": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinkkid/webpack-kit"
   },
   "keywords": [],
   "author": "",
